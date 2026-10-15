@@ -39,11 +39,19 @@
     "supertest": "6.3.3"
   },
   "dependencies": {
-    "handlebars": "^4.7.7",
+    "handlebars": ">=4.7.10",
     "lodash": "^4.17.21",
     "readdirp": "^3.6.0"
   },
   "optionalDependencies": {
     "js-beautify": "^1.13.11"
+  },
+  "overrides": {
+    "handlebars": ">=4.7.10",
+    "brace-expansion": ">=2.1.7"
+  },
+  "resolutions": {
+    "handlebars": ">=4.7.10",
+    "brace-expansion": ">=2.1.7"
   }
 }
